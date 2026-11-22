@@ -55,7 +55,7 @@ Async job platform separating the API control plane from RabbitMQ-driven workers
 </td>
 <td width="50%" valign="top">
 
-### 🎓 [CampusPulse](https://github.com/CodeCrusher24/CodeCrusher24)
+### 🎓 [CampusPulse](https://github.com/CodeCrusher24/CampusPulse)
 **Campus Event Workflow Platform**
 
 Role-based event approval system with dual-gate venue and faculty sign-off across 4 roles.
