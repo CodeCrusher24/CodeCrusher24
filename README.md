@@ -1,105 +1,136 @@
-## 👋 Hi, I’m Parag Kumar
+<div align="center">
 
-I’m a **3rd year B.Tech CSE student** with a strong interest in **backend development**.  
-I focus on understanding **core fundamentals**, building reliable systems, and writing clean, maintainable code.
+<img src="./header.svg" alt="Parag Kumar - Backend Engineer" width="100%" />
 
-Currently strengthening my backend foundations and preparing for **internship opportunities**.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2C9CF5&center=true&vCenter=true&width=620&lines=Final-year+B.Tech+CSE+%40+SMVDU;I+build+backends+that+hold+up+under+real+constraints;Spring+Boot+%7C+PostgreSQL+%7C+RabbitMQ+%7C+Kafka+%7C+Redis;Preparing+for+backend+engineering+roles" alt="Typing SVG" />
+</a>
 
----
+<br/>
 
-## 🔗 Profiles
 [![GitHub](https://img.shields.io/badge/GitHub-CodeCrusher24-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeCrusher24)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Parag_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paragkumar-tech/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-CodeCrusher24-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/CodeCrusher24/)
+[![Email](https://img.shields.io/badge/Email-paragpk2005@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paragpk2005@gmail.com)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+I'm a **final-year B.Tech CSE student** at **Shri Mata Vaishno Devi University, Katra** (graduating 2027).
+
+I care about how systems behave under real constraints, not just whether they work in a demo: **concurrency, failure handling, data integrity, and access control**. My focus is the **Java and Spring ecosystem**, alongside distributed infrastructure like **RabbitMQ, Kafka, and Redis**.
+
+```java
+public class Parag {
+    String role      = "Backend Engineer (in the making)";
+    String stack     = "Java · Spring Boot · PostgreSQL · RabbitMQ · Kafka · Redis";
+    String obsession = "Atomic operations, state machines, idempotency";
+    String status    = "Preparing for backend engineering roles";
+}
+```
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ [QueueForge](https://github.com/CodeCrusher24)
+**Distributed Job Orchestration Platform**
+
+Async job platform separating the API control plane from RabbitMQ-driven workers.
+
+- 🔒 State machine with guarded DB updates to stop concurrent double-claiming
+- 🔁 At-least-once delivery: exponential-backoff retries, dead-letter path, idempotency keys via PostgreSQL unique constraints
+- 📤 Kafka events through a **transactional outbox**, so committed state survives broker outages
+- 📊 Redis rate limiting + React dashboard with audit timelines
+
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,rabbitmq,kafka,redis,react,docker" alt="QueueForge stack" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 [CampusPulse](https://github.com/CodeCrusher24)
+**Campus Event Workflow Platform**
+
+Role-based event approval system with dual-gate venue and faculty sign-off across 4 roles.
+
+- 🎟️ No overbooking under concurrency: atomic SQL seat updates, optimistic locking, transactional waitlist promotion
+- 📝 Append-only audit logging + venue-conflict detection
+- 📥 All-or-nothing CSV bulk import (16 schools, 36 programs, 79 venues)
+- 🔐 Spring Security + JWT across 4 roles
+
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,docker" alt="CampusPulse stack" />
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💼 Experience
+
+| Role | Where | When | What I did |
+|------|-------|------|------------|
+| **Software Engineering Intern** | Infinite Computer Solutions, Noida | Jun – Jul 2026 | Designed a pedigree-tracking system (DAG-based lineage model, inbreeding detection via ancestor-set intersection); built the core Spring Boot backend on PostgreSQL |
+| **Web Developer Intern** | Delhi Technological University | May – Jul 2025 | Built a 40+ page hostel website with HTML, CSS and JavaScript |
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Programming Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+<div align="center">
+
+| | |
+|:--|:--|
+| **Languages** | <img src="https://skillicons.dev/icons?i=java,js" alt="languages" /> &nbsp; SQL |
+| **Backend** | <img src="https://skillicons.dev/icons?i=spring,hibernate" alt="backend" /> &nbsp; Spring Security · JWT · REST APIs |
+| **Databases & Caching** | <img src="https://skillicons.dev/icons?i=postgres,redis" alt="db" /> |
+| **Messaging & Streaming** | <img src="https://skillicons.dev/icons?i=rabbitmq,kafka" alt="messaging" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,html,css" alt="frontend" /> |
+| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=docker,git,github,linux,maven,postman" alt="tools" /> |
+
+</div>
+
+**CS Fundamentals:** `DSA` · `OOP` · `Operating Systems` · `Multithreading` · `DBMS` · `Computer Networks` · `System Design`
 
 ---
 
-### Backend & Java Ecosystem
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![JDBC](https://img.shields.io/badge/JDBC-007396?style=for-the-badge)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-59666C?style=for-the-badge)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![Lombok](https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge)
+## 📊 GitHub Stats
 
----
+<div align="center">
 
-### Databases & Persistence
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge)
+<img src="https://streak-stats.demolab.com?user=CodeCrusher24&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
----
+<img height="170" src="https://leetcard.jacoblin.cool/CodeCrusher24?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode stats" />
 
-### Data Science & Machine Learning
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=python&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-
----
-
-### Frontend
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
----
-
-### OS & Environment
-![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
----
-
-### Deployment & Hosting
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge)
-
----
-
-
-### Build, Tools & Platforms
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-
----
-
-### API & Documentation
-![REST API](https://img.shields.io/badge/REST_API-000000?style=for-the-badge)
-![Swagger UI](https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+</div>
 
 ---
 
 ## 📚 Currently Focusing On
-- Backend development with **Spring Boot**
-- Designing **RESTful APIs**
-- **PostgreSQL & MySQL** schema design
-- **Data Structures & Algorithms** (LeetCode)
-- Writing production-quality backend code
+
+- 🧮 **Data Structures & Algorithms** on LeetCode
+- 🏗️ **System design** for distributed, fault-tolerant backends
+- 🌱 Going deeper into **Spring ecosystem internals**
+- ✅ Writing production-quality backend code
+
+## 🎯 Goals
+
+- Land a **backend engineering role** working on real engineering problems
+- Keep building systems that reflect real-world logic, not textbook CRUD
+- Sharpen my grasp of concurrency, consistency, and reliability
 
 ---
 
-## 🎯 Goals
-- Build **real-world backend projects**
-- Strengthen system design fundamentals
-- Secure a **backend-focused internship**
-- Deepen understanding of Java & backend ecosystems
+<div align="center">
+
+⭐ *Open to backend opportunities. Feel free to reach out!* ⭐
+
+
+</div>
