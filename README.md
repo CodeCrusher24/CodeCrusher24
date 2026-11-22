@@ -40,7 +40,7 @@ public class Parag {
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [QueueForge](https://github.com/CodeCrusher24)
+### ⚙️ [QueueForge](https://github.com/CodeCrusher24/queueforge)
 **Distributed Job Orchestration Platform**
 
 Async job platform separating the API control plane from RabbitMQ-driven workers.
@@ -55,7 +55,7 @@ Async job platform separating the API control plane from RabbitMQ-driven workers
 </td>
 <td width="50%" valign="top">
 
-### 🎓 [CampusPulse](https://github.com/CodeCrusher24)
+### 🎓 [CampusPulse](https://github.com/CodeCrusher24/CodeCrusher24)
 **Campus Event Workflow Platform**
 
 Role-based event approval system with dual-gate venue and faculty sign-off across 4 roles.
